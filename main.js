@@ -1,4 +1,9 @@
-// CounterUp 
+// sticky navbar 
+window.addEventListener("scroll",function() {
+    let header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY >50)
+})
+// CounterUp
 const counters = document.querySelectorAll('.counter')
 counters.forEach(counter => {
     counter.innerText = '0'

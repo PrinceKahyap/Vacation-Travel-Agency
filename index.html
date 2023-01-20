@@ -14,7 +14,7 @@
 <body>
     <!-- @@@@@@@@@  Header_Section @@@@@@@@@@ -->
     <header>
-        <nav class="navbar">
+        <nav class="navbar container">
             <div class="logo"><span>Vacation</span><span>Travel Agency</span></div>
             <ul class="nav-menu">
                 <li><a href="#">Home</a></li>
@@ -22,10 +22,10 @@
                 <li><a href="#">Destination</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
+                <div class="nav-link">
+                    <button type="button" class="btn">Book now</button>
+                </div>
             </ul>
-            <div class="nav-link">
-                <button type="button" class="btn">Book now</button>
-            </div>
         </nav>
     </header>
     <!-- @@@@@@@@@  /Header_Section @@@@@@@@@@ -->
@@ -33,22 +33,20 @@
     <!-- @@@@@@@@@  Main_Section @@@@@@@@@@ -->
     <!-- Hero-section  -->
     <section class="hero">
-        <div class="hero-img">
-            <img src="/images/bg_2.jpg" alt="">
-            <div class="hero-container">
-                <div class="video-btn">
-                    	<i class="fa fa-play"></i>
-                </div>
-                <p>Travel to the any corner of the world, without going around in circles</p>
-                <h1>Make Your Tour Amazing With Us</h1>
+        <div class="h-overlay"></div>
+        <!-- <div class="hero-container container">
+            <div class="video-btn">
+                <i class="fa fa-play"></i>
             </div>
-        </div>
+            <p>Travel to the any corner of the world, without going around in circles</p>
+            <h1>Make Your Tour Amazing With Us</h1>
+        </div> -->
     </section>
     <!-- /Hero-section  -->
 
     <!-- About-section  -->
     <section class="about">
-        <div class="about-container">
+        <div class="about-container container">
             <div class="aboutLeft">
                 <div class="aboutBoxs">
                     <div class="about-img">
@@ -95,7 +93,7 @@
 
     <!-- Info-section  -->
     <section class="info">
-        <div class="info-container">
+        <div class="info-container container">
             <div class="infoLeft">
                 <img src="/images/about.jpg" alt="">
             </div>
@@ -104,20 +102,20 @@
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
                     the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
                     language ocean.</p>
-            </div>
-        </div>
-        <div class="number-wrapper">
-            <div class="numberBox">
-                <span class="counter"data-target="400"></span>
-                <p>Successful Tours</p>
-            </div>
-            <div class="numberBox">
-                <span class="counter"data-target="800"></span>
-                <p>Happy Tourist</p>
-            </div>
-            <div class="numberBox">
-                <span class="counter"data-target="350"></span>
-                <p>Place Explored</p>
+                    <div class="number-wrapper">
+                        <div class="numberBox">
+                            <span class="counter" data-target="400"></span>
+                            <p>Successful Tours</p>
+                        </div>
+                        <div class="numberBox">
+                            <span class="counter" data-target="800"></span>
+                            <p>Happy Tourist</p>
+                        </div>
+                        <div class="numberBox">
+                            <span class="counter" data-target="350"></span>
+                            <p>Place Explored</p>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>
@@ -128,7 +126,7 @@
         <div class="title">
             <h2>Best Place Destination</h2>
         </div>
-        <div class="bestplace-container">
+        <div class="bestplace-container container">
             <div class="bestplaceBoxs">
                 <div class="places-img">
                     <img src="/images/place-1.jpg" alt="">
@@ -170,7 +168,7 @@
     <!-- /BestPlace-section  -->
 
     <!-- Destination-section  -->
-    <section class="destination">
+    <!-- <section class="destination">
         <div class="title">
             <h2>Tour Destination</h2>
         </div>
@@ -187,7 +185,7 @@
                 <div class="desti-info">
                     <span><i class="fa fa-shower"></i> 2</span>
                     <span><i class="fa fa-bed"></i> 3</span>
-                    <span>	<i class="fa fa-umbrella"></i>Near Beach</span>
+                    <span> <i class="fa fa-umbrella"></i>Near Beach</span>
                 </div>
                 <div class="desti-overlay"></div>
             </div>
@@ -272,15 +270,15 @@
                 <div class="desti-overlay"></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- /Destination-section  -->
 
     <!-- Feedback-section  -->
-    <section class="feedback">
+    <!-- <section class="feedback">
         <div class="title">
             <h2>Tourist Feedback</h2>
         </div>
-    </section>
+    </section> -->
     <!-- /Feedback-section  -->
 
     <!-- Post-section  -->
@@ -288,7 +286,7 @@
         <div class="title">
             <h2>Recent Post</h2>
         </div>
-        <div class="post-container">
+        <div class="post-container container">
             <div class="postBoxs">
                 <div class="post-img">
                     <img src="/images/image_1.jpg" alt="">
@@ -299,7 +297,7 @@
                 </div>
                 <div class="post-overlay">
                     <span>21</span>
-                    <p>2023 Januray</p>
+                    <p>2023 <br> Januray</p>
                 </div>
             </div>
             <div class="postBoxs">
@@ -312,7 +310,7 @@
                 </div>
                 <div class="post-overlay">
                     <span>21</span>
-                    <p>2023 Januray</p>
+                    <p>2023 <br> Januray</p>
                 </div>
             </div>
             <div class="postBoxs">
@@ -325,7 +323,7 @@
                 </div>
                 <div class="post-overlay">
                     <span>21</span>
-                    <p>2023 Januray</p>
+                    <p>2023 <br> Januray</p>
                 </div>
             </div>
         </div>
@@ -335,14 +333,14 @@
 
     <!-- @@@@@@@@@  Footer_Section @@@@@@@@@@ -->
     <footer>
-        <div class="foot-img"><img src="/images/footer-bg.jpg" alt=""></div>
-        <div class="footer-wrapper">
+        <div class="footer-wrapper container">
             <div class="footer_items">
                 <div class="footer_title">
                     <h2>Vacation</h2>
                 </div>
                 <div class="footer-content">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
                 </div>
                 <div class="foot_icon">
                     <i class="fa fa-facebook"></i>
@@ -386,7 +384,7 @@
                 <div class="footer-links">
                     <ul class="foot-info">
                         <span><i class="fa fa-map-marker"></i></span>
-                        <li>	203 Fake St. Mountain View, San Francisco, California, USA</li>
+                        <li> 203 Fake St. Mountain View, San Francisco, California, USA</li>
                         <span><i class="fa fa-phone"></i></span>
                         <li>+2 392 3929 210</li>
                         <span><i class="fa fa-envelope"></i></span>
@@ -394,9 +392,10 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="footerBottom">
-            <p>Copyright © <span id="current-year"></span> All rights reserved | This template is made with <i class="fa fa-heart"></i> by <span>Prince Kashyap</span></p>
+            <p>Copyright ©<span id="current-year"></span> All rights reserved | This template is made with <i
+                    class="fa fa-heart"></i> by <span>Prince Kashyap</span></p>
         </div>
     </footer>
     <!-- @@@@@@@@@  /Footer_Section @@@@@@@@@@ -->
