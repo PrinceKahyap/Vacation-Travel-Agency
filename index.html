@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prince kashyap">
+    <meta name="description" content="This is a travel website,you can travel with us  any country in the world with safe and affordable way. because we believe in safe and secure traveling,">
+    <meta http-equiv="refresh" content="60">
+    <meta name="keywords" content="travel,Thailand, Singapore,Australia,affordable-traveling,safe travel">
     <link rel="shortcut icon" href="/images/icons8-lock-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/Responsive.css">
     <title>TravelAgency.com</title>
@@ -17,91 +22,103 @@
         <nav class="navbar container">
             <div class="logo"><span>Vacation</span><span>Travel Agency</span></div>
             <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home" class="nav-link yellow">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#destination" class="nav-link">Destination</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
                 <div class="nav-link">
                     <button type="button" class="btn">Book now</button>
                 </div>
             </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
     <!-- @@@@@@@@@  /Header_Section @@@@@@@@@@ -->
 
     <!-- @@@@@@@@@  Main_Section @@@@@@@@@@ -->
-    <!-- Hero-section  -->
-    <section class="hero">
-        <div class="h-overlay"></div>
-        <!-- <div class="hero-container container">
-            <div class="video-btn">
-                <i class="fa fa-play"></i>
+    <main>
+        <!-- Hero-section  -->
+        <section class="hero" id="home">
+            <div class="h-overlay"></div>
+            <div class="hero-container container">
+                <div class="video-btn">
+                    <i class="fa fa-play"></i>
+                </div>
+                <p>Travel to the any corner of the world, without going around in circles</p>
+                <h1>Make Your Tour Amazing With Us</h1>
             </div>
-            <p>Travel to the any corner of the world, without going around in circles</p>
-            <h1>Make Your Tour Amazing With Us</h1>
-        </div> -->
-    </section>
-    <!-- /Hero-section  -->
+        </section>
+        <!-- /Hero-section  -->
 
-    <!-- About-section  -->
-    <section class="about">
-        <div class="about-container container">
-            <div class="aboutLeft">
-                <div class="aboutBoxs">
-                    <div class="about-img">
-                        <img src="/images/paragliding.png" alt="">
+        <!-- About-section  -->
+        <section class="about" id="about">
+            <div class="about-container container">
+                <div class="aboutLeft">
+                    <div class="aboutBoxs">
+                        <div class="about-img">
+                            <img src="/images/paragliding.png" alt="">
+                        </div>
+                        <h3>Activities</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
                     </div>
-                    <h3>Activities</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                    <div class="aboutBoxs">
+                        <div class="about-img">
+                            <img src="/images/destination.png" alt="">
+                        </div>
+                        <h3>Travel Arrangements</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                    </div>
+                    <div class="aboutBoxs">
+                        <div class="about-img">
+                            <img src="/images/tourist.png" alt="">
+                        </div>
+                        <h3>Private Guide</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                    </div>
+                    <div class="aboutBoxs">
+                        <div class="about-img">
+                            <img src="/images/maps.png" alt="">
+                        </div>
+                        <h3>Location Manager</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                    </div>
                 </div>
-                <div class="aboutBoxs">
-                    <div class="about-img">
-                        <img src="/images/destination.png" alt="">
-                    </div>
-                    <h3>Travel Arrangements</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-                </div>
-                <div class="aboutBoxs">
-                    <div class="about-img">
-                        <img src="/images/tourist.png" alt="">
-                    </div>
-                    <h3>Private Guide</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-                </div>
-                <div class="aboutBoxs">
-                    <div class="about-img">
-                        <img src="/images/maps.png" alt="">
-                    </div>
-                    <h3>Location Manager</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                <div class="aboutRight">
+                    <h2>It's time to start your adventure</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                        is a
+                        paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large
+                        language ocean. A small river named Duden flows by their place and supplies it with the
+                        necessary
+                        regelialia.</p>
+                    <button class="btn" type="button">Search Destination</button>
                 </div>
             </div>
-            <div class="aboutRight">
-                <h2>It's time to start your adventure</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-                    paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                    language ocean. A small river named Duden flows by their place and supplies it with the necessary
-                    regelialia.</p>
-                <button class="btn" type="button">Search Destination</button>
-            </div>
-        </div>
-    </section>
-    <!-- /About-section  -->
+        </section>
+        <!-- /About-section  -->
 
-    <!-- Info-section  -->
-    <section class="info">
-        <div class="info-container container">
-            <div class="infoLeft">
-                <img src="/images/about.jpg" alt="">
-            </div>
-            <div class="infoRight">
-                <h2>Make Your Tour Memorable and Safe With Us</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                    language ocean.</p>
+        <!-- Info-section  -->
+        <section class="info">
+            <div class="info-container container">
+                <div class="infoLeft">
+                    <img src="/images/about.jpg" alt="">
+                </div>
+                <div class="infoRight">
+                    <h2>Make Your Tour Memorable and Safe With Us</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large
+                        language ocean.</p>
                     <div class="number-wrapper">
                         <div class="numberBox">
                             <span class="counter" data-target="400"></span>
@@ -116,219 +133,346 @@
                             <p>Place Explored</p>
                         </div>
                     </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- /Info-section  -->
+        </section>
+        <!-- /Info-section  -->
 
-    <!-- BestPlace-section  -->
-    <section class="bestplace">
-        <div class="title">
-            <h2>Best Place Destination</h2>
-        </div>
-        <div class="bestplace-container container">
-            <div class="bestplaceBoxs">
-                <div class="places-img">
-                    <img src="/images/place-1.jpg" alt="">
+        <!-- BestPlace-section  -->
+        <section class="bestplace" id="destination">
+            <div class="title">
+                <h2>Best Place Destination</h2>
+            </div>
+            <div class="bestplace-container container">
+                <div class="bestplaceBoxs">
+                    <div class="places-img">
+                        <img src="/images/place-1.jpg" alt="">
+                    </div>
+                    <h3>Singapore</h3>
+                    <div class="bestplace-overlay">
+                        <span>8 Tours</span>
+                    </div>
                 </div>
-                <h3>Singapore</h3>
-                <div class="bestplace-overlay">
-                    <span>8 Tours</span>
+                <div class="bestplaceBoxs">
+                    <div class="places-img">
+                        <img src="/images/place-2.jpg" alt="">
+                    </div>
+                    <h3>Canada</h3>
+                    <div class="bestplace-overlay">
+                        <span>2 Tours</span>
+                    </div>
+                </div>
+                <div class="bestplaceBoxs">
+                    <div class="places-img">
+                        <img src="/images/place-3.jpg" alt="">
+                    </div>
+                    <h3>Thailand</h3>
+                    <div class="bestplace-overlay">
+                        <span>5 Tours</span>
+                    </div>
+                </div>
+                <div class="bestplaceBoxs">
+                    <div class="places-img">
+                        <img src="/images/place-1.jpg" alt="">
+                    </div>
+                    <h3>Australia</h3>
+                    <div class="bestplace-overlay">
+                        <span>5 Tours</span>
+                    </div>
                 </div>
             </div>
-            <div class="bestplaceBoxs">
-                <div class="places-img">
-                    <img src="/images/place-2.jpg" alt="">
-                </div>
-                <h3>Canada</h3>
-                <div class="bestplace-overlay">
-                    <span>2 Tours</span>
-                </div>
-            </div>
-            <div class="bestplaceBoxs">
-                <div class="places-img">
-                    <img src="/images/place-3.jpg" alt="">
-                </div>
-                <h3>Thailand</h3>
-                <div class="bestplace-overlay">
-                    <span>5 Tours</span>
-                </div>
-            </div>
-            <div class="bestplaceBoxs">
-                <div class="places-img">
-                    <img src="/images/place-1.jpg" alt="">
-                </div>
-                <h3>Australia</h3>
-                <div class="bestplace-overlay">
-                    <span>5 Tours</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /BestPlace-section  -->
+        </section>
+        <!-- /BestPlace-section  -->
 
-    <!-- Destination-section  -->
-    <!-- <section class="destination">
-        <div class="title">
-            <h2>Tour Destination</h2>
-        </div>
-        <div class="destination-container">
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-1.jpg" alt="">
-                </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
-                </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span> <i class="fa fa-umbrella"></i>Near Beach</span>
-                </div>
-                <div class="desti-overlay"></div>
+        <!-- Destination-section  -->
+        <section class="destination">
+            <div class="title">
+                <h2>Tour Destination</h2>
             </div>
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-2.jpg" alt="">
+            <div class="destination-container container">
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-1.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span> <i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
                 </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-2.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
                 </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-3.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
                 </div>
-                <div class="desti-overlay"></div>
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-4.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
+                </div>
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-5.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
+                </div>
+                <div class="destinationBoxs">
+                    <div class="desti-img">
+                        <img src="/images/destination-6.jpg" alt="">
+                        <div class="desti-overlay"><span>$300/person</span></div>
+                    </div>
+                    <div class="desti-content">
+                        <span>8 Days Tour</span>
+                        <h3>Bali, Indonesia</h3>
+                        <p><i class="fa fa-map"></i> Bali, Indonesia</p>
+                    </div>
+                    <div class="desti-info">
+                        <span><i class="fa fa-shower"></i> 2</span>
+                        <span><i class="fa fa-bed"></i> 3</span>
+                        <span><i class="fa fa-umbrella"></i>Near Beach</span>
+                    </div>
+                </div>
             </div>
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-3.jpg" alt="">
-                </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
-                </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span><i class="fa fa-umbrella"></i>Near Beach</span>
-                </div>
-                <div class="desti-overlay"></div>
-            </div>
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-4.jpg" alt="">
-                </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
-                </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span><i class="fa fa-umbrella"></i>Near Beach</span>
-                </div>
-                <div class="desti-overlay"></div>
-            </div>
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-5.jpg" alt="">
-                </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
-                </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span><i class="fa fa-umbrella"></i>Near Beach</span>
-                </div>
-                <div class="desti-overlay"></div>
-            </div>
-            <div class="destinationBoxs">
-                <div class="desti-img">
-                    <img src="/images/destination-6.jpg" alt="">
-                </div>
-                <div class="desti-content">
-                    <span>8 Days Tour</span>
-                    <h3>Bali, Indonesia</h3>
-                    <p><i class="fa fa-map"></i> Bali, Indonesia</p>
-                </div>
-                <div class="desti-info">
-                    <span><i class="fa fa-shower"></i> 2</span>
-                    <span><i class="fa fa-bed"></i> 3</span>
-                    <span><i class="fa fa-umbrella"></i>Near Beach</span>
-                </div>
-                <div class="desti-overlay"></div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Destination-section  -->
+        </section>
+        <!-- /Destination-section  -->
 
-    <!-- Feedback-section  -->
-    <!-- <section class="feedback">
-        <div class="title">
-            <h2>Tourist Feedback</h2>
-        </div>
-    </section> -->
-    <!-- /Feedback-section  -->
+        <!-- Feedback-section  -->
+        <section class="feedback">
+            <div class="title">
+                <h2>Tourist Feedback</h2>
+            </div>
+            <div class="wrapper container">
+                <div class="carousel owl-carousel">
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_1.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_2.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_3.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_2.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_1.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-1">
+                        <div class="owl-para">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there
+                                live the blind texts</p>
+                        </div>
+                        <div class="feed-info">
+                            <div class="feed-img">
+                                <img src="/images/person_3.jpg" alt="">
+                            </div>
+                            <div class="feedRight">
+                                <h3>Roger</h3>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Feedback-section  -->
 
-    <!-- Post-section  -->
-    <section class="Post">
-        <div class="title">
-            <h2>Recent Post</h2>
-        </div>
-        <div class="post-container container">
-            <div class="postBoxs">
-                <div class="post-img">
-                    <img src="/images/image_1.jpg" alt="">
+        <!-- Post-section  -->
+        <section class="Post" id="blog">
+            <div class="title">
+                <h2>Recent Post</h2>
+            </div>
+            <div class="post-container container">
+                <div class="postBoxs">
+                    <div class="post-img">
+                        <img src="/images/image_1.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h3>Why Lead Generation is Key for Business Growth</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="post-overlay">
+                        <span>21</span>
+                        <p>2023 <br> Januray</p>
+                    </div>
                 </div>
-                <div class="post-content">
-                    <h3>Why Lead Generation is Key for Business Growth</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="postBoxs">
+                    <div class="post-img">
+                        <img src="/images/image_2.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h3>Why Lead Generation is Key for Business Growth</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="post-overlay">
+                        <span>21</span>
+                        <p>2023 <br> Januray</p>
+                    </div>
                 </div>
-                <div class="post-overlay">
-                    <span>21</span>
-                    <p>2023 <br> Januray</p>
+                <div class="postBoxs">
+                    <div class="post-img">
+                        <img src="/images/image_3.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h3>Why Lead Generation is Key for Business Growth</h3>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                    <div class="post-overlay">
+                        <span>21</span>
+                        <p>2023 <br> Januray</p>
+                    </div>
                 </div>
             </div>
-            <div class="postBoxs">
-                <div class="post-img">
-                    <img src="/images/image_2.jpg" alt="">
-                </div>
-                <div class="post-content">
-                    <h3>Why Lead Generation is Key for Business Growth</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                </div>
-                <div class="post-overlay">
-                    <span>21</span>
-                    <p>2023 <br> Januray</p>
-                </div>
+        </section>
+        <!-- /Post-section  -->
+
+        <!-- Contact-section  -->
+        <section class="contact">
+            <div class="title">
+                <h2>Touch with Us</h2>
             </div>
-            <div class="postBoxs">
-                <div class="post-img">
-                    <img src="/images/image_3.jpg" alt="">
+            <div class="contact-container container">
+                <div class="contactLeft">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.112313568257!2d77.20653218753262!3d28.628920553059174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1674458206671!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="post-content">
-                    <h3>Why Lead Generation is Key for Business Growth</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="contactRight">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <input type="text" placeholder="Subject">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message" class="con-btn">
+                    </form>
                 </div>
-                <div class="post-overlay">
-                    <span>21</span>
-                    <p>2023 <br> Januray</p>
-                </div>
+
             </div>
-        </div>
-    </section>
-    <!-- /Feedback-section  -->
+        </section>
+        <!-- /Contact-section  -->
+    </main>
     <!-- @@@@@@@@@  /Main_Section @@@@@@@@@@ -->
 
     <!-- @@@@@@@@@  Footer_Section @@@@@@@@@@ -->
@@ -392,8 +536,8 @@
                     </ul>
                 </div>
             </div>
-        </div> 
-        <div class="footerBottom">
+        </div>
+        <div class="footerBottom container">
             <p>Copyright ©<span id="current-year"></span> All rights reserved | This template is made with <i
                     class="fa fa-heart"></i> by <span>Prince Kashyap</span></p>
         </div>
@@ -401,6 +545,9 @@
     <!-- @@@@@@@@@  /Footer_Section @@@@@@@@@@ -->
 
     <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="main.js"></script>
 </body>
 
