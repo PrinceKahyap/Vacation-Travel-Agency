@@ -104,6 +104,15 @@
     .container {
         padding: 0 10px;
     }
+    header{
+        height: 60px;
+    }
+    .logo{
+        height: 60px;
+    }
+    .nav-menu {
+       top: 60px;
+    }
     .nav-menu a{
         font-size: 1.4rem;
     }
@@ -232,6 +241,9 @@
     .post-content p{
         font-size: 1.4rem;
     }
+    .contactRight form{
+        padding: 30px;
+    }
 
     footer {
         padding-top: 100px;
@@ -284,5 +296,17 @@
 
     .footerBottom p span {
         font-size: 1.4rem;
+    }
+}
+@media(max-width: 380px){
+    .contactRight form{
+        padding: 30px 10px;
+     }
+     .contactRight form input,
+     .contactRight form textarea{
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+        outline: none;
     }
 }
